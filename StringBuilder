@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+// Я доделаю всё :D
+public class string {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //1 задание
+        String Str = new String(sc.nextLine());
+        char[] array = Str.toCharArray();
+        StringBuilder s = new StringBuilder(Str);
+        for (int i = 0; i < s.length(); i += 3) {
+            if (array[i] != ' ') {
+                s.deleteCharAt(i);
+                s.insert(i, "Ъ");
+            }
+
+        }
+        // 2 задание
+        char[] abc = {'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я' };
+        Str.toString();
+        Str = Str.toLowerCase();
+        char[] array1 = Str.toCharArray();
+        StringBuilder ss = new StringBuilder();
+
+        for (int i = 0; i < array1.length; i++) {
+            for (int j = 0; j < abc.length; j++) {
+                if (abc[j] == array1[i]) {
+                    ss.append(j + 1);
+                } else if (array1[i] == ' ') {
+                    ss.append(' ');
+                    break;
+                }
+            }
+        }
+
+        System.out.print(s+"\n"+"_______"+"\n"+ss);
+
+    }
+
+}
+
+
+
+
