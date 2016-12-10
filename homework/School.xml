@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<School>
+    <MyName>
+        <firstName> Pavel s</firstName>
+        <lastName> Malyshev</lastName>
+    </MyName>
+    <Floor>    3   </Floor>
+    <Classes>  60  </Classes>
+    <Students> 339 </Students>
+    <Teacher>  26  </Teacher>
+    <Canteen> 1 </Canteen>
+    <Gym> 1 </Gym>
+    <WallColors> White  </wallColors>   
+</School>
+
