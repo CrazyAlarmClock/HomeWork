@@ -1,0 +1,50 @@
+CREATE TABLE Книги(
+
+	ID 				    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	Название 		  TEXT,		
+	Автор 			  TEXT,		
+	Издательство 	TEXT,		
+	Год издания 	DATE,		
+	Стоимость 		INTEGER,		
+	Признак 		  TEXT	
+);
+
+
+CREATE TABLE Хранилища(
+
+	ID				    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	ФИО руковод.	TEXT,
+	Адрес			    TEXT,
+	телефон			  TEXT,
+	Вместимость		INTEGER
+);	
+
+
+CREATE TABLE Факультеты(
+
+	ID 		 		    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	Название 		  TEXT,
+	Декан			    TEXT,
+	Дата образов	DATE
+);
+
+
+CREATE  TABLE Книгивучебномпроцессе(
+
+	ID 		 		    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	IDdepartment	INTEGER,
+	IDbook			  INTEGER,
+	Дисциплина		TEXT,
+	FOREIGN KEY		(IDbook) 		    REFERENCES Книги(Id),
+	FOREIGN KEY		(IDdepartment) 	REFERENCES Факультеты(ID)
+);
+
+CREATE TABLE Хранение(
+	
+	ID 				    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	IDbook			  INTEGER,
+	IDrepository	INTEGER,
+	Количество		INTEGER,	
+	Выдачи			  INTEGER,
+	FOREIGN KEY		(IDbook) 		  REFERENCES Книги(ID)
+);
