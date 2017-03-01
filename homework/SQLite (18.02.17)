@@ -1,12 +1,12 @@
 CREATE TABLE Книги(
 
-	ID 				    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-	Название 		  TEXT,		
-	Автор 			  TEXT,		
+	ID 						INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	Название 			TEXT,		
+	Автор 				TEXT,		
 	Издательство 	TEXT,		
 	Год издания 	DATE,		
 	Стоимость 		INTEGER,		
-	Признак 		  TEXT	
+	Признак 			TEXT	
 );
 
 
