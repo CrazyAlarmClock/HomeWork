@@ -1,8 +1,11 @@
 package github.com.crazyalarmclock.tap_tapcolors;
 
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -22,21 +25,14 @@ import static github.com.crazyalarmclock.tap_tapcolors.R.id.btn;
  */
 
 public class Game extends MainActivity implements View.OnClickListener {
-
     final   Random random = new Random();
-
-    Context context;
-
-    int highScore = 0;
-
     Button btn;
-    public int score = 0,r,rr;
+    public int score =1,r,rr;
     private Handler handler = new Handler();
     private int time = 2000;
-    TextView text;
-    TextView sc0re;
-    private  String[] names = {
+    TextView text,sc0re;
 
+    private  String[] names = {
             "Red         ",
             "Pink        ",
             "Purple      ",
@@ -58,6 +54,7 @@ public class Game extends MainActivity implements View.OnClickListener {
             "Blue Grey   ",
             "Black       "
     };
+
     private int[]  colors = {
             Color.parseColor("#F44336"),                //Red
             Color.parseColor("#E91E63"),                //Pink
@@ -94,32 +91,18 @@ public class Game extends MainActivity implements View.OnClickListener {
 
         handler.postDelayed(timeUpdaterRunnable, 0);
 
-        sc0re.setText("Score:"+ 0);
-        text.setText("tap to play!");
-
-
-
+        sc0re.setText("Score: "+ 0);
+        text.setText("Tap to play!");
     }
-
-
 
     private Runnable timeUpdaterRunnable = new Runnable() {
         @Override
         public void run() {
-
             r=random.nextInt(3) ;
             btn.setBackgroundColor(colors[r]);
-
             handler.postDelayed(this, time);
-
-
         }
     };
-
-
-
-
-
 
     @Override
     public void onClick(View view) {
@@ -128,15 +111,11 @@ public class Game extends MainActivity implements View.OnClickListener {
             rr=random.nextInt(3) ;
             time -=50;
 
-        } else  {
-            FragmentManager manager = getSupportFragmentManager();
-            MyDialogFragment myDialogFragment = new MyDialogFragment();
-            myDialogFragment.show(manager, "dialog");
-
-
-        }
-
-
+                } else if (score > 1)  {
+                    Intent intent = new Intent(getApplicationContext(),Result.class);
+                    intent.putExtra("SCORE",score-1);
+                    startActivity(intent);
+                    }
         text.setText(names[rr]);
     }
 

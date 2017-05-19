@@ -16,9 +16,10 @@
     <string name="Yellow">        Yellow          </string>
     <string name="Amber">         Amber           </string>
     <string name="Orange">        Orange           </string>
-    <string name="Deep_Orange">   Deep Orange       </string >
+    <string name="Deep_Orange">   Deep Orange       </string>
     <string name="Brown">         Brown            </string>
     <string name="Grey">          Grey            </string>
     <string name="Blue_Grey">     Blue Grey        </string>
     <string name="Black">         Black           </string>
+    <string name="title_activity_result">Result</string>
 </resources>

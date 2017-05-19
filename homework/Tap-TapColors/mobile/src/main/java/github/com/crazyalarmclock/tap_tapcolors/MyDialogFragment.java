@@ -22,7 +22,7 @@ public class MyDialogFragment extends android.support.v4.app.DialogFragment {
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         Context mContext;
         String title = "Game over";
-        String message = "Continue?";
+        String message = "Continue?" ;
         String button1String = "yes";
         String button2String = "no";
 
@@ -32,14 +32,18 @@ public class MyDialogFragment extends android.support.v4.app.DialogFragment {
 
         builder.setPositiveButton(button1String, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
+                context.startActivity(new Intent(context,MainActivity.class));
 
 
             }
         });
         builder.setNegativeButton(button2String, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int id) {
+
             }
         });
+
+
         builder.setCancelable(true);
 
         return builder.create();

@@ -13,8 +13,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn;
     TextView  textView2;
 
-
-    public int higtScore;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,11 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         textView2 = (TextView) findViewById(R.id.textView2);
 
+        SharedPreferences settings = getSharedPreferences("GAME_DATA", Context.MODE_PRIVATE);
+        int highScore = settings.getInt("HIGHT_SCORE", 0);
 
+        textView2.setText("High Score : " + highScore);
 
     }
-
-
 
     @Override
     public void onClick(View view) {
@@ -39,8 +38,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         }
-
     }
-
 
 }
