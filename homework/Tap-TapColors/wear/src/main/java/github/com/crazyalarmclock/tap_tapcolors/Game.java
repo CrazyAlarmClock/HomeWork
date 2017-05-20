@@ -4,16 +4,23 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.wearable.activity.WearableActivity;
+import android.support.wearable.view.BoxInsetLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.Random;
 
 /**
- * Created by Pavel on 02.04.2017.
+ * Created by Pavel on 21.05.2017.
  */
-public class Game extends MainActivity implements View.OnClickListener {
+
+public class Game extends WearableActivity implements View.OnClickListener {
+
     final Random random = new Random();
     Button btn;
     public int score = 1, r, rr;
@@ -89,4 +96,3 @@ public class Game extends MainActivity implements View.OnClickListener {
         text.setText(names[rr]);
     }
 }
-

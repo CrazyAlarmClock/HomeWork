@@ -3,20 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/hscore"
+    android:background="@drawable/bg"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="github.com.crazyalarmclock.tap_tapcolors.MainActivity">
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="213dp"
-        android:layout_height="42dp"
-
-        android:layout_alignParentTop="true"
+        android:id="@+id/btn1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/play"
+        android:elevation="0dp"
         android:onClick="btn1"
-        android:text="play"
+        android:text=""
         tools:layout_editor_absoluteX="86dp"
         tools:layout_editor_absoluteY="314dp" />
 
@@ -28,18 +31,39 @@
 
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:text="by CrazyAlarmClock" />
+        android:text="ver.0.5" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+       <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btn1"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/score" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
         android:text="Hight score:0"
-        android:layout_marginBottom="134dp"
-        android:layout_above="@+id/textView7"
-        android:layout_centerHorizontal="true" />
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

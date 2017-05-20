@@ -7,10 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btn;
+    Button btn1;
     TextView  textView2;
 
     @Override
@@ -18,8 +19,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btn = (Button) findViewById(R.id.btn);
-        btn.setOnClickListener(this);
+        btn1 = (Button) findViewById(R.id.btn1);
+        btn1.setOnClickListener(this);
 
         textView2 = (TextView) findViewById(R.id.textView2);
 
@@ -33,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
 
-        if (view ==btn ){
+        if (view ==btn1 ){
             startActivity(new Intent(MainActivity.this, Game.class));
 
 
