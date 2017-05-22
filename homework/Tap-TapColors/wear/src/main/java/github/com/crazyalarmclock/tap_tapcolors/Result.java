@@ -49,6 +49,7 @@ public class Result extends WearableActivity implements View.OnClickListener  {
     public void onClick(View view) {
         if (view==btn2){
             startActivity(new Intent(Result.this, Game.class));
+            finish();
         }
     }
 }

@@ -22,4 +22,5 @@
     <string name="Blue_Grey">     Blue Grey        </string>
     <string name="Black">         Black           </string>
     <string name="title_activity_result">Result</string>
+    <string name="activity_home_name">Play</string>
 </resources>

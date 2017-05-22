@@ -91,8 +91,12 @@ public class Game extends WearableActivity implements View.OnClickListener {
             Intent intent = new Intent(getApplicationContext(), Result.class);
             intent.putExtra("SCORE", score - 1);
             startActivity(intent);
+
+
         }
         text.setTextColor(colors[rr]);
         text.setText(names[rr]);
     }
+
+
 }

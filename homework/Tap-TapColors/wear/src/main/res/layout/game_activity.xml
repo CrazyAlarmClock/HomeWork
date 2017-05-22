@@ -9,41 +9,33 @@
         android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-
         android:onClick="btn"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="116dp"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/textView" />
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="130dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/sc0re"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="29dp"
         android:text="Color"
-        android:textAlignment="viewStart"
-        android:textColor="@android:color/white"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:textAppearance="@style/TextAppearance.WearDiag.Title"
+        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/sc0re" />
 
     <TextView
         android:id="@+id/sc0re"
         android:layout_width="wrap_content"
-        android:layout_height="12dp"
+        android:layout_height="16dp"
         android:text="Score: 0"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
-        android:textSize="12sp"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="383dp"
-        android:layout_marginEnd="53dp"
-
+        android:textSize="14sp"
         android:layout_alignBaseline="@+id/textView"
         android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="42dp" />
+
 
 </RelativeLayout>
