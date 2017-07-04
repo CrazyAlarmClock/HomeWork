@@ -1,0 +1,110 @@
+/*Белый цвет на заднем плане*/
+#backcontent-color{
+	background-color:#FFFFFF;
+	height:800px;
+	width:1102px;
+	margin-left:200px;
+}
+
+/*задний план*/
+#backHead{
+	height:150px;
+	background-color:#800080;
+}
+
+#backcontent{
+	height:110%;
+	background-color:#808080;
+}
+/*начало*/
+#allcontent{
+	padding: 30px 200px;
+	position:absolute;
+	
+}
+/*Градиент*/
+#header1-1{
+	  background-image: linear-gradient(#008080, #800080,#800080,#008080,#008080);
+	  height:97px;
+	  width:1100px;
+}
+
+/*Слово архитектура*/
+#arh{
+	font-size:20px;
+	color:#FFFFFF;
+	margin-left:20px;
+	padding-top:20px;
+	margin-top:0px;
+}
+
+
+/*Строка поиска*/
+
+#found{
+	position:absolute;
+	margin-left:700px;
+}
+
+#Lupa{
+	margin-top:-42px;
+	margin-left:980px;
+	position:absolute;
+}
+
+/*навигация*/
+a{
+	color:#FFFFFF;
+}
+
+nav{
+	border:2px solid #008080;
+	background-color:#008080;
+}
+
+#ramka{
+	border:1px solid black;
+	height:850px;
+}
+#ramka1{
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	
+}
+/*Строительство*/
+#build{
+	border:2px solid #800080;
+	background-color:#800080;
+	position:absolute;
+	margin-left:901px;
+	margin-top:-300px;
+	padding:30px;
+	color:#FFFFFF;
+}
+/*Текст на фото*/
+#OnFoto{
+	margin-top:-30px;
+}
+
+/*Левый столбец*/
+#number{
+	border:2px solid #800080;
+	background-color:#800080;
+	color:#FFFFFF;
+
+}
+
+#contentLeft{
+ margin-left:30px;	
+}
+
+#ssilkaNeWhite{
+	color:blue;
+}
+
+/*Левый столбец*/
+#contentRight{
+	margin-left:400px;
+	margin-top:-440px;
+}

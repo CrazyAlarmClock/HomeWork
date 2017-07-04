@@ -25,7 +25,7 @@ public class Game extends WearableActivity implements View.OnClickListener {
     Button btn;
     public int score = 1, r, rr;
     private Handler handler = new Handler();
-    private int time = 1800;
+    private int time = 1500;
     TextView text, sc0re;
 
     private String[] names = {
@@ -68,6 +68,9 @@ public class Game extends WearableActivity implements View.OnClickListener {
 
         sc0re.setText("Score: " + 0);
         text.setText("Tap to play!");
+
+        rr = random.nextInt(9);
+
     }
 
     private Runnable timeUpdaterRunnable = new Runnable() {

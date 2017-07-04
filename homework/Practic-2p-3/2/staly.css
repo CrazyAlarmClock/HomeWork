@@ -1,0 +1,75 @@
+body{
+	margin: 0 200px;
+	background-color:;
+}
+#header{
+	height:70px;
+	background-color:#A9A9A9;
+	padding-left:100px;
+}
+
+#text{
+	padding-left:500px;
+	padding-top:30px;
+	top:0;
+	position:absolute;
+	word-spacing:20px;
+}
+
+#foto1{
+	padding-top:20px;
+	padding-left:100px;
+}
+#foto2{
+	padding:20px 80px;	
+}
+#foto3{
+	padding:20px 100px;	
+}
+
+#ser1{
+	height:250px;
+	width:350px;
+	background-color:#A9A9A9;
+}
+
+#tabl1{
+	margin-left:80px;
+}
+
+#tabl2{
+	margin-top:-270px;
+	padding:20px 20px;
+	position:absolute;
+	margin-left:110px;
+}
+
+#rightstolb{
+	position:relative;
+	margin-left:850px;
+	margin-top:-151px;
+}
+
+#pocherk{
+	border-bottom:2px solid #A9A9A9;
+	margin-right:75px;
+}
+#pocherkK{
+	border-bottom:2px solid #A9A9A9;
+	border-top:2px solid #A9A9A9;
+}
+
+#leftstolb{
+	margin:60px 80px;
+	
+}
+
+#all{
+	margin-left:-50px;
+}
+
+#lower2{
+	background-color:#A9A9A9;
+	padding:30px 50px;
+	text-align:center;
+}

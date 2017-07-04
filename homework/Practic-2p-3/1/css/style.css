@@ -1,0 +1,73 @@
+body{
+	//margin: auto 100px 
+}
+#first{
+	background-color:#008001;
+	color:#E9FFF4;
+	padding:20px 20px;
+}
+#ssilka{
+	text-align:right;
+	padding-left:260px; 
+	word-spacing:40px;
+}
+#nach{
+	font-size:20px;
+	padding-left:70px 
+}
+
+/* 2-Й */
+
+#second{
+	background-color:#0747DD;
+	color:#E9FFF4;
+	padding:20px 20px;
+}
+
+input{
+	background-color:#008001;
+	color:#E9FFF4;
+	border: 3px solid #008001;
+}
+#pic{
+	padding-right:50px;
+	padding-top:20px;
+}
+	
+	/* 3-Й */
+	
+	
+#third{
+	margin:auto 200px	
+	}
+	
+#zerno{
+	color:#008001;
+	border-bottom: 3px solid #008001;
+}
+
+
+#dd{
+	color:#E9FFF4;
+	border:3px solid #008001;
+	background-color:#008001;
+}
+
+
+#tt{
+	color:#008001;
+}
+
+
+/* 3-Й */
+	
+	
+#forth{
+	padding:50px 100px;
+	background-color:#008001;
+	}
+	
+	u{
+		color:#909499;
+	}	
+
