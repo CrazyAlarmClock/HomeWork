@@ -1,66 +1,53 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-documents = [
-    {"type": "passport", "number": "2207 876234", "name": "Василий Гупкин"},
-    {"type": "invoice", "number": "11-2", "name": "Геннадий Покемонов"},
-    {"type": "insurance", "number": "10006", "name": "Аристарх Павлов"}
-]
-
-directories = {
-    '1': ['2207 876234', '11-2'],
-    '2': ['10006'],
-    '3': []
-}
+#### чуть-чуть опоздал, простите! ночью допишу !
+class Animals:
+    pass
 
 
-def people(names):
-    enter_number = str(input("Ввидите число"))
-    for name in names:
-        if enter_number == name['number']:
-            print(name['name'])
-
-        else:
-            print("данный номер документа не найден ")
-    return names
+class Goose(Animals):
+    first_goose_name = "Серый"
+    second_goose_name = "Белый"
 
 
-# people(documents)
+class Cow(Animals):
+    cow_name = "Манька"
 
 
-def list(names):
-    for name in names:
-        print('{} "{}" "{}"'.format(name['type'], name['number'], name['name']))
-    return names
+class Sheep(Animals):
+    first_sheep_name = "Барашек"
+    second_sheep_name = "Кудрявый"
 
 
-list(documents)
+class Chicken(Animals):
+    first_chicken_name = "Ко-Ко"
+    second_chicken_name = "Кукареку"
 
 
-def shelf(dirs):
-    enter_number = str(input("Ввидите число"))
-    for key, name in dirs.items():
-        if enter_number == name:
-            return key
-
-        print(shelf(key))
+class Goat(Animals):
+    first_goat_name = "Рога"
+    second_goat_name = "Копыта"
 
 
-#Shelf(directories)
+class Duck(Animals):
+    duck_name = "Кряква"
 
 
+def feed():
+    print("ням-ням")
+    return feed()
 
 
+def milk():
+    pass
 
 
+def cut():
+    pass
 
 
+def collect_eggs():
+    pass
 
 
-
-
-
-
-
-
+def tell():
+    pass
 
