@@ -14,14 +14,14 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+            <state relative-caret-position="1345">
+              <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
               <folding>
                 <element signature="e#254#332#0" />
                 <element signature="e#456#488#0" />
                 <element signature="e#447#451#0" />
-                <element signature="e#1131#1245#0" />
                 <element signature="e#1838#1939#0" />
+                <element signature="e#2316#2710#0" />
               </folding>
             </state>
           </provider>
@@ -149,13 +149,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="18" />
     </breakpoint-manager>
   </component>
@@ -168,8 +161,8 @@
             <element signature="e#254#332#0" />
             <element signature="e#456#488#0" />
             <element signature="e#447#451#0" />
-            <element signature="e#1131#1245#0" />
             <element signature="e#1838#1939#0" />
+            <element signature="e#2316#2710#0" />
           </folding>
         </state>
       </provider>
@@ -182,22 +175,22 @@
             <element signature="e#254#332#0" />
             <element signature="e#456#488#0" />
             <element signature="e#447#451#0" />
-            <element signature="e#1131#1245#0" />
             <element signature="e#1838#1939#0" />
+            <element signature="e#2316#2710#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+        <state relative-caret-position="1345">
+          <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
           <folding>
             <element signature="e#254#332#0" />
             <element signature="e#456#488#0" />
             <element signature="e#447#451#0" />
-            <element signature="e#1131#1245#0" />
             <element signature="e#1838#1939#0" />
+            <element signature="e#2316#2710#0" />
           </folding>
         </state>
       </provider>
