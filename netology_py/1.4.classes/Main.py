@@ -1,5 +1,4 @@
-#### чуть-чуть опоздал, простите! ночью допишу, просто бьыл пару дней назад на хакатоне и весь график сбился 🤯
-
+### не успел дописать поиск имени из 3 задания, днем допишу
 
 class Animals:
     photo = "😇"
@@ -34,37 +33,9 @@ class Animals:
         else: print("Данное живтоное не несет яйиц😕")
 
 
-def fat():
-    count = 0
-    max = 0
-    list = [goose.weight,
-            goose2.weight,
-            cow.weight,
-            sheep.weight,
-            sheep2.weight,
-            chicken.weight,
-            chicken2.weight,
-            goat.weight,
-            goat2.weight,
-            duck.weight]
-
-    for i in list:
-        if i > count:
-            count = i
-        max+=i
-
-    return round(max,2),count
-
-
-
-
-
-
-
-
 class Goose(Animals):
     weight = 2#kg
-    name= "Серый"
+    name = "Серый"
     voice = "honk-honk-honk"
     photo = "🦆"
     eggs = 1
@@ -147,6 +118,26 @@ goat = Goat()
 goat2 = Goat2()
 duck = Duck()
 
+def fat():
+    count = 0
+    max = 0
+    list = [goose.weight,
+            goose2.weight,
+            cow.weight,
+            sheep.weight,
+            sheep2.weight,
+            chicken.weight,
+            chicken2.weight,
+            goat.weight,
+            goat2.weight,
+            duck.weight]
+
+    for i in list:
+        if i > count:
+            count = i
+        max+=i
+
+    return round(max,2),count
 
 max,count = fat()
 print("Вес всех животных: {} кг, Максимальный вес животого: {}".format(max, count),"кг")
