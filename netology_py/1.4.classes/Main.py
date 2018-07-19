@@ -1,4 +1,4 @@
-### не успел дописать поиск имени из 3 задания, днем допишу + еще ошибки 
+### не успел дописать поиск имени из 3 задания, днем допишу + еще ошибки
 
 class Animals:
     photo = "😇"
@@ -9,7 +9,6 @@ class Animals:
     cut = 0
     eat = 0
     name = "example"
-    name2 = "example"
 
     def tell(self):
         print("Имя: {}, Вес: {} кг, Говорит: {}".format(self.name, self.weight, self.voice), self.photo)
@@ -120,24 +119,19 @@ duck = Duck()
 
 def fat():
     count = 0
+    count2 = 0
     max = 0
-    list = [goose.weight,
-            goose2.weight,
-            cow.weight,
-            sheep.weight,
-            sheep2.weight,
-            chicken.weight,
-            chicken2.weight,
-            goat.weight,
-            goat2.weight,
-            duck.weight]
 
-    for i in list:
+    list_weight = [goose2.weight , goose.weight, cow.weight, sheep.weight, sheep2.weight, chicken.weight, chicken2.weight, goat.weight,goat2.weight, duck.weight]
+    list_name = [goose2.name, goose.name, cow.name,  sheep.name,  sheep2.name,  chicken.name,  chicken2.name,  goat.name,  goat2.name,  duck.name]
+
+    for j, i in enumerate(list_weight):
         if i > count:
             count = i
+            count2 = list_name[j]
         max+=i
 
-    return round(max,2),count
+    return round(max,2),count,count2
 
-max,count = fat()
-print("Вес всех животных: {} кг, Максимальный вес животого: {}".format(max, count),"кг")
+max,count,count2 = fat()
+print("Вес всех животных: {} кг, Максимальный вес животого: {} кг, Имя: {}".format(max, count, count2))
