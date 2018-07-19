@@ -5,10 +5,10 @@ class Animals:
     photo = "😇"
     voice = "example"
     weight = 0
-    eggs = False
-    milk = False
-    cut = False
-    eat = False
+    eggs = 0
+    m1lk = 0
+    cut = 0
+    eat = 0
     name = "example"
     name2 = "example"
 
@@ -16,16 +16,50 @@ class Animals:
         print("Имя: {}, Вес: {} кг, Говорит: {}".format(self.name, self.weight, self.voice), self.photo)
 
     def feed(self):
-        print("Вы покормили: Имя: {}, Вес: {} кг, ".format(self.name, self.weight), self.photo)
+        print("Вы покормили - Имя: {}, Вес: {} кг ".format(self.name, self.weight), self.photo)
 
     def milk(self):
-        pass
+        if self.m1lk == 1:
+            print("Вы подоили - Имя: {}, Вес: {} кг ".format(self.name, self.weight), self.photo)
+        else: print("Данное живтоное нелья подоить 😕")
 
     def shear(self):
-        pass
+        if self.cut == 1:
+            print("Вы подстригли - Имя: {}, Вес: {} кг ".format(self.name, self.weight), self.photo)
+        else: print("Данное живтоное нелья подстричь 😕")
 
     def collect_eggs(self):
-        pass
+        if self.m1lk == 1:
+            print("Вы собрали яйца у - Имя: {}, Вес: {} кг ".format(self.name, self.weight), self.photo)
+        else: print("Данное живтоное не несет яйиц😕")
+
+
+def fat():
+    count = 0
+    max = 0
+    list = [goose.weight,
+            goose2.weight,
+            cow.weight,
+            sheep.weight,
+            sheep2.weight,
+            chicken.weight,
+            chicken2.weight,
+            goat.weight,
+            goat2.weight,
+            duck.weight]
+
+    for i in list:
+        if i > count:
+            count = i
+        max+=i
+
+    return round(max,2),count
+
+
+
+
+
+
 
 
 class Goose(Animals):
@@ -33,18 +67,13 @@ class Goose(Animals):
     name= "Серый"
     voice = "honk-honk-honk"
     photo = "🦆"
-    cut = False
-    eggs = True
-    milk =False
+    eggs = 1
 
 
-class Goose2(Animals):
+class Goose2(Goose):
     weight = 3#kg
-    name= "Белый"
-    voice = "honk-
-    cut = False
-    milk =False
-    eggs = True
+    name = "Белый"
+
 
 
 class Cow(Animals):
@@ -53,9 +82,7 @@ class Cow(Animals):
     name = "Манька"
     voice = "moo"
     photo = "🐮"
-    cut = False
-    milk = True
-
+    m1lk = 1
 
 
 class Sheep(Animals):
@@ -63,38 +90,25 @@ class Sheep(Animals):
     name = "Барашек"
     voice = "baaah"
     photo = "🐑"
-    cut = True
-    milk = False
+    cut = 1
 
 
-
-
-class Sheep2(Animals):
+class Sheep2(Sheep):
     weight = 9  #kg
     name = "Кудрявый"
-    voice = "baaah"
-    photo = "🐑"
-    cut = True
-    milk = False
+
 
 class Chicken(Animals):
     weight = 0.4 #kg
     name = "Ко-Ко"
     voice = "cackle and cluck"
     photo = "🐔"
-    eggs = True
-    cut = False
-    milk = False
+    eggs = 1
 
 
-class Chicken2(Animals):
+class Chicken2(Chicken):
     weight = 0.5#kg
     name = "Кукареку"
-    voice = "cackle and cluck"
-    photo = "🐔"
-    eggs = True
-    milk = False
-    cut = False
 
 
 class Goat(Animals):
@@ -102,17 +116,13 @@ class Goat(Animals):
     weight = 6#kg
     name = "Рога"
     voice = "baaah"
-    milk = False
     photo = "🐐"
-    cut = False
 
-class Goat2(Animals):
+
+class Goat2(Goat):
     weight = 6#kg
     name = "Копыта"
-    voice = "baaah"
-    photo = "🐐"
-    cut = False
-    milk = False
+
 
 
 class Duck(Animals):
@@ -121,9 +131,7 @@ class Duck(Animals):
     name = "Кряква"
     voice = "quack-quack"
     photo = "🦆"
-    cut = False
-    eggs = True
-    milk = False
+    eggs = 1
 
 
 animals = Animals()
@@ -139,4 +147,6 @@ goat = Goat()
 goat2 = Goat2()
 duck = Duck()
 
-goose2.tell()
+
+max,count = fat()
+print("Вес всех животных: {} кг, Максимальный вес животого: {}".format(max, count),"кг")
