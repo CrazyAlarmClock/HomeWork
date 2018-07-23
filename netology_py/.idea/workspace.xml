@@ -14,10 +14,11 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.1/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+            <state relative-caret-position="414">
+              <caret line="30" column="31" selection-start-line="30" selection-end-line="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <marker date="1532382350781" expanded="true" signature="550:746" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,6 +72,16 @@
             <path>
               <item name="netology_py" type="b2602c69:ProjectViewProjectNode" />
               <item name="netology_py" type="462c0819:PsiDirectoryNode" />
+              <item name="1.3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netology_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netology_py" type="462c0819:PsiDirectoryNode" />
+              <item name="1.4.classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netology_py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netology_py" type="462c0819:PsiDirectoryNode" />
               <item name="2.1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -96,6 +107,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Main">
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="netology_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.4.classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.4.classes/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="netology_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,10 +164,12 @@
     <list>
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.kek" />
+      <item itemvalue="Python.Main (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.kek" />
       </list>
     </recent_temporary>
@@ -160,10 +191,10 @@
     <frame x="137" y="22" width="1154" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24956672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.194974" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50086653" side_tool="true" weight="0.32977304" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32977304" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32977304" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -193,6 +224,7 @@
         <state>
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+            <marker date="1532382350781" expanded="true" signature="550:746" ph="..." />
           </folding>
         </state>
       </provider>
@@ -212,16 +244,41 @@
     <entry file="file://$PROJECT_DIR$/1.4.classes/Main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.4.classes/kek.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.4.classes/Main.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.1/kek.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.4.classes/kek.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.4.classes/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.3/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.3/Maih2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="1236" column="8" selection-start-line="1236" selection-start-column="8" selection-end-line="1236" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -234,10 +291,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2.1/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="414">
+          <caret line="30" column="31" selection-start-line="30" selection-end-line="31" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+            <marker date="1532382350781" expanded="true" signature="550:746" ph="..." />
           </folding>
         </state>
       </provider>
