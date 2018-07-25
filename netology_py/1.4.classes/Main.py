@@ -33,72 +33,82 @@ class Animals:
 
 
 class Goose(Animals):
+    def __init__(self, n = "test"):
+        self.name = n
     weight = 2#kg
-    name = "Серый"
     voice = "honk-honk-honk"
     photo = "🦆"
     eggs = 1
 
 
 class Goose2(Goose):
+    def __init__(self, n="test"):
+        self.name = n
     weight = 3#kg
-    name = "Белый"
 
 
 
 class Cow(Animals):
+    def __init__(self, n="test"):
+        self.name = n
     cow_weight = 40
     weight = 40#kg
-    name = "Манька"
     voice = "moo"
     photo = "🐮"
     m1lk = 1
 
 
 class Sheep(Animals):
+    def __init__(self, n="test"):
+        self.name = n
     weight = 8  #kg
-    name = "Барашек"
     voice = "baaah"
     photo = "🐑"
     cut = 1
 
 
 class Sheep2(Sheep):
+    def __init__(self, n="test"):
+        self.name = n
     weight = 9  #kg
-    name = "Кудрявый"
 
 
 class Chicken(Animals):
+    def __init__(self, n="test"):
+        self.name = n
     weight = 0.4 #kg
-    name = "Ко-Ко"
     voice = "cackle and cluck"
     photo = "🐔"
     eggs = 1
 
 
 class Chicken2(Chicken):
+    def __init__(self, n="test"):
+        self.name = n
     weight = 0.5#kg
-    name = "Кукареку"
 
 
 class Goat(Animals):
+    def __init__(self, n="test"):
+        self.name = n
     goat_weight = 6
     weight = 6#kg
-    name = "Рога"
     voice = "baaah"
     photo = "🐐"
 
 
 class Goat2(Goat):
+    def __init__(self, n="test"):
+        self.name = n
     weight = 6#kg
-    name = "Копыта"
 
 
 
 class Duck(Animals):
+    def __init__(self, n="test"):
+        self.name = n
     duck_weight = 0.7 #kg
     weight = 0.7
-    name = "Кряква"
     voice = "quack-quack"
     photo = "🦆"
     eggs = 1
@@ -106,16 +116,16 @@ class Duck(Animals):
 
 animals = Animals()
 
-goose = Goose()
-goose2 = Goose2()
-cow = Cow()
-sheep = Sheep()
-sheep2 = Sheep2()
-chicken = Chicken()
-chicken2 = Chicken2()
-goat = Goat()
-goat2 = Goat2()
-duck = Duck()
+goose = Goose("Серый")
+goose2 = Goose2("Бклый")
+cow = Cow("Манька")
+sheep = Sheep("Барашек")
+sheep2 = Sheep2("Кудрявый")
+chicken = Chicken("Кукареку")
+chicken2 = Chicken2("Кукареку")
+goat = Goat("Рога")
+goat2 = Goat2("Копыта")
+duck = Duck("Кряква")
 
 def fat():
     hi_weight = 0
@@ -133,5 +143,6 @@ def fat():
     return round(max, 2), hi_weight, fat_name
 
 max,hi_weight,fat_name = fat()
+goose.tell()
 print("Вес всех животных: {} кг, Максимальный вес животого: {} кг, Имя: {}".format(max, hi_weight, fat_name))
 
