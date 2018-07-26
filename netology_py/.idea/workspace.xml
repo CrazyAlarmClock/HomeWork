@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12822deb-b66d-436b-84da-2a889f8650e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2.1/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.1/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +16,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2.1/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="-97">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -30,8 +28,8 @@
       <file leaf-file-name="recipes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.1/recipes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -54,6 +52,7 @@
         <option value="$PROJECT_DIR$/2.1/recipes.txt" />
         <option value="$PROJECT_DIR$/2.1/kek.py" />
         <option value="$PROJECT_DIR$/1.4.classes/Main.py" />
+        <option value="$PROJECT_DIR$/2.1/22.py" />
         <option value="$PROJECT_DIR$/2.1/Main.py" />
       </list>
     </option>
@@ -110,6 +109,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Main">
+    <configuration name="22" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="netology_py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2.1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.1/22.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="netology_py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,10 +185,12 @@
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.kek" />
       <item itemvalue="Python.Main (1)" />
+      <item itemvalue="Python.22" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.22" />
         <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.kek" />
       </list>
@@ -197,7 +216,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20642202" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50086653" side_tool="true" weight="0.32977304" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32976654" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.49027237" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -346,17 +365,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/line/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="515" selection-start-line="515" selection-end-line="515" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.1/22.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/2.1/recipes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.1/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="-97">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
