@@ -26,28 +26,27 @@ with open('recipes.txt') as file:
             tmp['quantity'] = line[1]
             tmp['measure'] = line[2]
             coock_book_list.append(tmp)
-            print("-----------------------------------")
-            ingredients_orig = list(ingredients)
-            ingredients_orig.append(coock_book_list)
-            coock_book_list1 = list(coock_book_list)
-            coock_book_list1.append(coock_book_list)
+            ingredients = coock_book_list[:]
 
-            print("НАШ ТЕКСТ, inegredients = ")
-            pprint(ingredients)
-            ingredients.clear()
+
+
+
+
 
 
         elif not space:
-            ingredients1 = list(lol)
-            lol.append(coock_book_list1)
+            ingredients2 = ingredients[:]
+            lol.append(ingredients2)
 
-            print("FINAL{{{{{{{")
+            ingredients.clear()
             coock_book_list.clear()
 
 
 
 
-pprint(coock_book_list1)
+pprint(names)
+pprint(lol)
+
 
 
 
