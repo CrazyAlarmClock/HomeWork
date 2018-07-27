@@ -143,6 +143,8 @@ def fat():
     return round(max, 2), hi_weight, fat_name
 
 max,hi_weight,fat_name = fat()
+
 goose.tell()
+duck.tell()
 print("Вес всех животных: {} кг, Максимальный вес животого: {} кг, Имя: {}".format(max, hi_weight, fat_name))
 
