@@ -2,34 +2,57 @@ from collections import defaultdict
 from pprint import pprint
 import re
 
-coock_book = []
 coock_book_list = []
 names = []
+lol = []
+coock_book = {}
 ingredients = []
 
+
 with open('recipes.txt') as file:
+
     for i, line in enumerate(file):
         line = line.strip()
-        line = line.split('|')
-        coock_book_list.append(line)
+        line = line.split("|")
+        name = re.search(r'[a-яА-ЯёЁ]', str(line))
+        space = re.search(r'\w', str(line))
 
-# print(coock_book_list)
+        if  name and len(line)==1:
+            names.append(line)
 
-for j, i in enumerate(coock_book_list):
+        elif name and len(line)>1:
+            tmp = dict()
+            tmp['ingridient_name'] = line[0]
+            tmp['quantity'] = line[1]
+            tmp['measure'] = line[2]
+            coock_book_list.append(tmp)
+            print("-----------------------------------")
+            ingredients_orig = list(ingredients)
+            ingredients_orig.append(coock_book_list)
+            coock_book_list1 = list(coock_book_list)
+            coock_book_list1.append(coock_book_list)
 
-    if len(i) >= 2:
-        tmp = dict()
-        tmp['ingridient_name'] = i[0]
-        tmp['quantity'] = i[1]
-        tmp['measure'] = i[2]
-        ingredients.append(tmp)
-
-    elif not('')  in i and not ('3') in i and not ('3') in i and not ('4') in i and not ('5') in i and not ('6') in i and not ('7') in i and not ('8') in i and not ('9') in i:
-         names.append(i)
+            print("НАШ ТЕКСТ, inegredients = ")
+            pprint(ingredients)
+            ingredients.clear()
 
 
-# keys[i]: values[i] for i in range(len(keys))
+        elif not space:
+            ingredients1 = list(lol)
+            lol.append(coock_book_list1)
 
-# pprint(ingredients)
-dictionary = dict(zip(names, ingredients))
-pprint(dictionary)
+            print("FINAL{{{{{{{")
+            coock_book_list.clear()
+
+
+
+
+pprint(coock_book_list1)
+
+
+
+
+
+
+
+
