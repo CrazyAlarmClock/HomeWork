@@ -15,7 +15,7 @@ with open('recipes.txt') as file:
         line = line.split("|")
         name = re.search(r'[a-яА-ЯёЁ]', str(line))
         space = re.search(r'\w', str(line))
-        if name and len(line)==1:
+        if name and len(line) == 1:
             names.append(line)
         elif name and len(line)>1:
             tmp = dict()
@@ -25,22 +25,22 @@ with open('recipes.txt') as file:
             coock_book_list.append(tmp)
             ingredients = coock_book_list[:]
         elif not space:
-            test = lol
             ingredients2 = ingredients[:]
             lol.append(ingredients2)
             ingredients.clear()
             coock_book_list.clear()
 
-
-
-
 coock_book = list(zip(names, lol))
+
+for item in coock_book:
+        if item == "Омлет":
+            pprint("2")
+
 
 
 
 
 pprint(coock_book)
-
 
 
 
