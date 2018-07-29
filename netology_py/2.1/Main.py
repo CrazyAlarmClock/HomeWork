@@ -32,12 +32,6 @@ with open('recipes.txt') as file:
 
 coock_book = list(zip(names, lol))
 
-for item in coock_book:
-        if item == "Омлет":
-            pprint("2")
-
-
-
 
 
 pprint(coock_book)
