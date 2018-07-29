@@ -36,9 +36,12 @@ def coockBoock():
 
 coockBoock()
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 1d745c2f2f54e45b413d4d9adf1f8e129fb515e8
 
 
 
