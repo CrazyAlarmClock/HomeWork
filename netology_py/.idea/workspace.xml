@@ -25,6 +25,18 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.4.classes/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+>>>>>>> 1c2f42b532780eb5c46d8be2ee461bd1bbb36046
       <file leaf-file-name="recipes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.1/recipes.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -209,15 +221,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20625" />
+=======
+<<<<<<< HEAD
+    <frame x="137" y="22" width="1154" height="823" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.194974" />
+=======
+    <frame x="1470" y="0" width="1090" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20642202" />
+>>>>>>> 1c2f42b532780eb5c46d8be2ee461bd1bbb36046
+>>>>>>> 5a0a598364ec545d428378508b9858319a8a19cd
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50086653" side_tool="true" weight="0.32977304" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" weight="0.49027237" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" weight="0.32977304" />
+=======
+>>>>>>> 1c2f42b532780eb5c46d8be2ee461bd1bbb36046
+>>>>>>> 5a0a598364ec545d428378508b9858319a8a19cd
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -440,5 +473,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/1.4.classes/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 1c2f42b532780eb5c46d8be2ee461bd1bbb36046
   </component>
 </project>
