@@ -4,6 +4,7 @@ import re
 # немножко не успел доделатье еще! скоро допшу до конца. изините за такой код :D 
 names = []
 <<<<<<< HEAD
+<<<<<<< HEAD
 test = {}
 lol = []
 coock_book2 = []
@@ -49,6 +50,8 @@ print(names)
 
 
 =======
+=======
+>>>>>>> 4ad52a7f6c7b05d429d4a8bd4d0ee6daeced110e
 result =[]
 ingredients3 = []
 def coockBoock():
@@ -89,4 +92,7 @@ def get_shop_list_by_dishes(dishes):
 all_items = coockBoock()
 pprint(all_items[0])
 get_shop_list_by_dishes('Омлет')
+<<<<<<< HEAD
+>>>>>>> 4ad52a7f6c7b05d429d4a8bd4d0ee6daeced110e
+=======
 >>>>>>> 4ad52a7f6c7b05d429d4a8bd4d0ee6daeced110e
