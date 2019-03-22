@@ -1,7 +1,7 @@
 from collections import defaultdict
 from pprint import pprint
 import re
-# немножко не успел доделатье еще! скоро допшу до конца. изините за такой код :D 
+# немножко не успел доделатье еще! скоро допшу до конца. изините за такой код :D
 names = []
 result =[]
 ingredients3 = []
